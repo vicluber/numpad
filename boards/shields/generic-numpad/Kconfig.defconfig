@@ -1,0 +1,6 @@
+if numpad-generic
+
+config ZMK_KEYBOARD_NAME
+    default "Generic Numpad"
+
+endif
