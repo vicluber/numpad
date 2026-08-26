@@ -1,4 +1,7 @@
-if numpad-generic
+# WHAT: Default Kconfig values for Generic Numpad shield.
+# WHY: Sets the default keyboard BLE advertising name.
+# HOW: Checks if SHIELD_GENERIC_NUMPAD is enabled.
+if SHIELD_GENERIC_NUMPAD
 
 config ZMK_KEYBOARD_NAME
     default "Generic Numpad"
