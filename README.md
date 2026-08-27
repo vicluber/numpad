@@ -45,21 +45,21 @@ Standard traditional numpad layout:
 
 ---
 
-## 4. SuperMini nRF52840 Pin Assignment (Generic-numpad Mapping)
+## 4. nice!nano / SuperMini nRF52840 Pin Assignment
 
-Connect the 9 lines to the specific pins on your **SuperMini nRF52840 (V1940)** board (compatible with the ZMK shield definition in [Sadteeto/Generic-numpad](https://github.com/Sadteeto/Generic-numpad)):
+Connect the 9 lines to the specific pins on your **nice!nano / SuperMini nRF52840** board (compatible with the ZMK shield definition in [Sadteeto/Generic-numpad](https://github.com/Sadteeto/Generic-numpad)):
 
-| Matrix Line | Board Silk Label | Pro Micro / nice!nano Alias | nRF52840 GPIO (ZMK) | Physical Pin Position (USB-C at Top) |
-| :--- | :--- | :--- | :--- | :--- |
-| **Row 0** | `031` | `21` (or `A0`) | `P0.31` | **Right side**, Pin 6 from top (below VCC) |
-| **Row 1** | `029` | `20` (or `A1`) | `P0.29` | **Right side**, Pin 7 from top |
-| **Row 2** | `002` | `19` (or `A2`) | `P0.02` | **Right side**, Pin 8 from top |
-| **Row 3** | `115` | `18` (or `A3`) | `P1.15` | **Right side**, Pin 9 from top |
-| **Row 4** | `113` | `15` (or `SCK`) | `P1.13` | **Right side**, Pin 10 from top |
-| **Col 0** | `017` | `2` (or `D2`) | `P0.17` | **Left side**, Pin 6 from top (below GND) |
-| **Col 1** | `020` | `3` (or `D3`) | `P0.20` | **Left side**, Pin 7 from top |
-| **Col 2** | `022` | `4` (or `D4`) | `P0.22` | **Left side**, Pin 8 from top |
-| **Col 3** | `024` | `5` (or `D5`) | `P0.24` | **Left side**, Pin 9 from top |
+| Matrix Line | Silk Label (Back View) | Pro Micro Alias (nice!nano) | nRF52840 GPIO (ZMK) | Position (Back View / Silk Side Up, USB Top) | Position (Front View / Component Side, USB Top) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Row 0** | `031` | `21` (or `A0`) | `P0.31` | **Left side**, Pin 6 (below VCC) | **Right side**, Pin 6 (below VCC) |
+| **Row 1** | `029` | `20` (or `A1`) | `P0.29` | **Left side**, Pin 7 | **Right side**, Pin 7 |
+| **Row 2** | `002` | `19` (or `A2`) | `P0.02` | **Left side**, Pin 8 | **Right side**, Pin 8 |
+| **Row 3** | `115` | `18` (or `A3`) | `P1.15` | **Left side**, Pin 9 | **Right side**, Pin 9 |
+| **Row 4** | `113` | `15` (or `SCK`) | `P1.13` | **Left side**, Pin 10 | **Right side**, Pin 10 |
+| **Col 0** | `017` | `2` (or `D2`) | `P0.17` | **Right side**, Pin 6 (below GND) | **Left side**, Pin 6 (below GND) |
+| **Col 1** | `020` | `3` (or `D3`) | `P0.20` | **Right side**, Pin 7 | **Left side**, Pin 7 |
+| **Col 2** | `022` | `4` (or `D4`) | `P0.22` | **Right side**, Pin 8 | **Left side**, Pin 8 |
+| **Col 3** | `024` | `5` (or `D5`) | `P0.24` | **Right side**, Pin 9 | **Left side**, Pin 9 |
 
 ---
 
