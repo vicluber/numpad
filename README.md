@@ -45,21 +45,21 @@ Standard traditional numpad layout:
 
 ---
 
-## 4. nice!nano / SuperMini nRF52840 Pin Assignment (Generic-numpad Mapping)
+## 4. SuperMini nRF52840 Pin Assignment (Generic-numpad Mapping)
 
-Connect the 9 lines to the specific GPIO pins defined in [Sadteeto/Generic-numpad](https://github.com/Sadteeto/Generic-numpad):
+Connect the 9 lines to the specific pins on your **SuperMini nRF52840 (V1940)** board (compatible with the ZMK shield definition in [Sadteeto/Generic-numpad](https://github.com/Sadteeto/Generic-numpad)):
 
-| Matrix Line | Board Silkscreen Pin | nRF52840 GPIO (ZMK) | Physical Board Side |
-| :--- | :--- | :--- | :--- |
-| **Row 0** | `21` (or `A0`) | `P0.31` | Right Side |
-| **Row 1** | `20` (or `A1`) | `P0.29` | Right Side |
-| **Row 2** | `19` (or `A2`) | `P0.02` | Right Side |
-| **Row 3** | `18` (or `A3`) | `P1.15` | Right Side |
-| **Row 4** | `15` (or `SCK`) | `P1.13` | Right Side |
-| **Col 0** | `2` (or `D2`) | `P0.17` | Left Side |
-| **Col 1** | `3` (or `D3`) | `P0.20` | Left Side |
-| **Col 2** | `4` (or `D4`) | `P0.22` | Left Side |
-| **Col 3** | `5` (or `D5`) | `P0.24` | Left Side |
+| Matrix Line | Board Silk Label | Pro Micro / nice!nano Alias | nRF52840 GPIO (ZMK) | Physical Pin Position (USB-C at Top) |
+| :--- | :--- | :--- | :--- | :--- |
+| **Row 0** | `031` | `21` (or `A0`) | `P0.31` | **Right side**, Pin 6 from top (below VCC) |
+| **Row 1** | `029` | `20` (or `A1`) | `P0.29` | **Right side**, Pin 7 from top |
+| **Row 2** | `002` | `19` (or `A2`) | `P0.02` | **Right side**, Pin 8 from top |
+| **Row 3** | `115` | `18` (or `A3`) | `P1.15` | **Right side**, Pin 9 from top |
+| **Row 4** | `113` | `15` (or `SCK`) | `P1.13` | **Right side**, Pin 10 from top |
+| **Col 0** | `017` | `2` (or `D2`) | `P0.17` | **Left side**, Pin 6 from top (below GND) |
+| **Col 1** | `020` | `3` (or `D3`) | `P0.20` | **Left side**, Pin 7 from top |
+| **Col 2** | `022` | `4` (or `D4`) | `P0.22` | **Left side**, Pin 8 from top |
+| **Col 3** | `024` | `5` (or `D5`) | `P0.24` | **Left side**, Pin 9 from top |
 
 ---
 
