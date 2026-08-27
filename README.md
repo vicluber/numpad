@@ -51,7 +51,9 @@ Connect the 9 lines to the specific pins on your **nice!nano / SuperMini nRF5284
 
 | Matrix Line | Silk Label (Back View) | Pro Micro Alias (nice!nano) | nRF52840 GPIO (ZMK) | Position (Back View / Silk Side Up, USB Top) | Position (Front View / Component Side, USB Top) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Row 0** | `031` | `21` (or `A0`) | `P0.31` | **Left side**, Pin 6 (below VCC) | **Right side**, Pin 6 (below VCC) |
+| **Row 0 (Original)** | `031` | `21` (or `A0`) | `P0.31` | **Left side**, Pin 6 (below VCC) | **Right side**, Pin 6 (below VCC) |
+| **Row 0 (Backup 1)** | `111` | `14` (or `MISO`)| `P1.11` | **Left side**, Pin 11 (below 113) | **Right side**, Pin 11 |
+| **Row 0 (Backup 2)** | `100` | `6` (or `D6`)   | `P1.00` | **Right side**, Pin 10 (below 024) | **Left side**, Pin 10 |
 | **Row 1** | `029` | `20` (or `A1`) | `P0.29` | **Left side**, Pin 7 | **Right side**, Pin 7 |
 | **Row 2** | `002` | `19` (or `A2`) | `P0.02` | **Left side**, Pin 8 | **Right side**, Pin 8 |
 | **Row 3** | `115` | `18` (or `A3`) | `P1.15` | **Left side**, Pin 9 | **Right side**, Pin 9 |
