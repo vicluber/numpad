@@ -51,13 +51,13 @@ Connect the 9 lines to the specific pins on your **nice!nano / SuperMini nRF5284
 
 | Matrix Line | Silk Label (Back View) | Pro Micro Alias (nice!nano) | nRF52840 GPIO (ZMK) | Position (Back View / Silk Side Up, USB Top) | Position (Front View / Component Side, USB Top) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Row 0 (Original)** | `031` | `21` (or `A0`) | `P0.31` | **Left side**, Pin 6 (below VCC) | **Right side**, Pin 6 (below VCC) |
-| **Row 0 (Backup 1)** | `111` | `14` (or `MISO`)| `P1.11` | **Left side**, Pin 11 (below 113) | **Right side**, Pin 11 |
-| **Row 0 (Backup 2)** | `100` | `6` (or `D6`)   | `P1.00` | **Right side**, Pin 10 (below 024) | **Left side**, Pin 10 |
-| **Row 1** | `029` | `20` (or `A1`) | `P0.29` | **Left side**, Pin 7 | **Right side**, Pin 7 |
-| **Row 2** | `002` | `19` (or `A2`) | `P0.02` | **Left side**, Pin 8 | **Right side**, Pin 8 |
-| **Row 3** | `115` | `18` (or `A3`) | `P1.15` | **Left side**, Pin 9 | **Right side**, Pin 9 |
-| **Row 4** | `113` | `15` (or `SCK`) | `P1.13` | **Left side**, Pin 10 | **Right side**, Pin 10 |
+| **Row 0 (Original)** | `031` | `21` (or `A0`) | `P0.31` | **Left side**, Pin 5 (below VCC) | **Right side**, Pin 5 (below VCC) |
+| **Row 0 (Backup 1)** | `100` | `6` (or `D6`)   | `P1.00` | **Right side**, Pin 10 (below 024) | **Left side**, Pin 10 |
+| **Row 0 (Backup 2)** | `009` | `10` (or `D10`) | `P0.09` | **Left side**, Pin 12 (bottom left) | **Right side**, Pin 12 |
+| **Row 1** | `029` | `20` (or `A1`) | `P0.29` | **Left side**, Pin 6 | **Right side**, Pin 6 |
+| **Row 2** | `002` | `19` (or `A2`) | `P0.02` | **Left side**, Pin 7 | **Right side**, Pin 7 |
+| **Row 3** | `111` | `14` (or `MISO`)| `P1.11` | **Left side**, Pin 10 (below 113) | **Right side**, Pin 10 |
+| **Row 4** | `010` | `16` (or `MOSI`)| `P0.10` | **Left side**, Pin 11 (below 111) | **Right side**, Pin 11 |
 | **Col 0** | `017` | `2` (or `D2`) | `P0.17` | **Right side**, Pin 6 (below GND) | **Left side**, Pin 6 (below GND) |
 | **Col 1** | `020` | `3` (or `D3`) | `P0.20` | **Right side**, Pin 7 | **Left side**, Pin 7 |
 | **Col 2** | `022` | `4` (or `D4`) | `P0.22` | **Right side**, Pin 8 | **Left side**, Pin 8 |

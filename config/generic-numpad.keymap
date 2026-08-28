@@ -43,9 +43,9 @@
     &kp KP_N4     &kp KP_N5      &kp KP_N6
     &kp KP_N1     &kp KP_N2      &kp KP_N3         &kp KP_ENTER
                   &kp KP_N0                        &kp KP_DOT 
-    /* Cloned Row 0 on Backup Pin 111 (pro_micro 14) */
-    &mo 1         &kp KP_DIVIDE  &kp KP_MULTIPLY   &kp KP_MINUS
     /* Cloned Row 0 on Backup Pin 100 (pro_micro 6) */
+    &mo 1         &kp KP_DIVIDE  &kp KP_MULTIPLY   &kp KP_MINUS
+    /* Cloned Row 0 on Backup Pin 009 (pro_micro 10) */
     &mo 1         &kp KP_DIVIDE  &kp KP_MULTIPLY   &kp KP_MINUS
             >;
         };
@@ -56,9 +56,9 @@
     &trans       &out OUT_TOG    &trans
     &bt BT_SEL 0 &bt BT_SEL 1    &bt BT_SEL 2 &sys_reset
                  &bt BT_CLR                   &trans
-    /* Cloned Row 0 on Backup Pin 111 (pro_micro 14) */
-    &trans       &trans          &trans       &trans
     /* Cloned Row 0 on Backup Pin 100 (pro_micro 6) */
+    &trans       &trans          &trans       &trans
+    /* Cloned Row 0 on Backup Pin 009 (pro_micro 10) */
     &trans       &trans          &trans       &trans
             >;
         };
@@ -69,9 +69,9 @@
     &kp LEFT     &trans          &kp RIGHT
     &trans       &trans          &trans       &trans
                  &trans                       &bootloader
-    /* Cloned Row 0 on Backup Pin 111 (pro_micro 14) */
-    &trans       &trans          &trans       &trans
     /* Cloned Row 0 on Backup Pin 100 (pro_micro 6) */
+    &trans       &trans          &trans       &trans
+    /* Cloned Row 0 on Backup Pin 009 (pro_micro 10) */
     &trans       &trans          &trans       &trans
             >;
         };
