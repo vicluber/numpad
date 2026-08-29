@@ -41,7 +41,7 @@ In `boards/shields/generic-numpad/generic-numpad.dtsi` and `config/generic-numpa
 2. Added two backup row pins to `kscan0` row-gpios:
    * **Backup 1:** Silk `100` (`pro_micro 6` / `P1.00`) -> Right side, Pin 10 (directly below Col 3 `024`).
    * **Backup 2:** Silk `009` (`pro_micro 10` / `P0.09`) -> Left side, Pin 12 (bottom pin on the left).
-3. Cloned the exact Row 0 key bindings (`&mo 1`, `KP_DIVIDE`, `KP_MULTIPLY`, `KP_MINUS`) to Row 5 and Row 6 on all keymap layers.
+3. Cloned the exact Row 0 key bindings (`&kp KP_NUM`, `KP_DIVIDE`, `KP_MULTIPLY`, `KP_MINUS`) to Row 5 and Row 6 on all keymap layers.
 
 ---
 
